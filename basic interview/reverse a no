@@ -1,0 +1,9 @@
+n=int(input())
+originalno=n
+reverse=0
+while originalno>0 :
+    remainder=originalno%10
+    reverse=reverse*10+remainder
+    originalno=originalno//10
+
+print("reversed number:"+str(reverse))

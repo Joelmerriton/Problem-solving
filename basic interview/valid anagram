@@ -1,0 +1,11 @@
+string1=(input("enter a word:"))
+string2=(input("enter a word:"))
+if len(string1)!=len(string2):
+    print('not a anagram')
+else:    
+    string1=sorted(string1)
+    string2=sorted(string2)
+    if string1==string2:
+        print("valid anagram")
+    else:
+        print("not a anagram")    

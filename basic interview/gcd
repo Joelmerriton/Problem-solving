@@ -1,0 +1,9 @@
+x=int(input())
+y=int(input())
+while x and y !=0:
+    if x>y:
+        x%=y
+    else :
+        y&=x
+    gcd=x+y
+print('the gcd of x and y is',(gcd))
