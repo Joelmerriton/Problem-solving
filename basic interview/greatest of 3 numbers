@@ -1,0 +1,9 @@
+p=int(input())
+q=int(input())
+r=int(input())
+if p>q>r:
+    print(p,"is the largest no")    
+elif q>r:
+    print(q,"is the largest no")   
+else:
+    print(r,"is the largest no")     

@@ -1,0 +1,5 @@
+string=input("enter a string:")
+character=input("enter a character:")
+frequency=0
+frequency=string.count(character)
+print(str(frequency),"is the frequency of string")

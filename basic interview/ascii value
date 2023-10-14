@@ -1,0 +1,3 @@
+number=input()
+ascii=ord(number)
+print(ascii)

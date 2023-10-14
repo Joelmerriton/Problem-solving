@@ -1,0 +1,6 @@
+arr=[1,4,9,16,25]
+smallest=arr[0]
+for i in range (len(arr)):
+    if arr[i]<smallest:
+         smallest=arr[i]
+print(smallest)
